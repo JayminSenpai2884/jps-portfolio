@@ -25,9 +25,17 @@ const About = () => {
               Hi, I'm JayminKumar, nice to meet you.
             </p>
             <p className="text-base sm:text-xl leading-relaxed w-auto text-justify pr-0 sm:pr-[11rem]">
-  As a computer programming student at Conestoga College, I'm passionate about forging a rewarding career in IT, focusing on roles like Full Stack Developer and Mobile Developer. Proficient in the MERN stack and skilled in C# and JavaScript, I'm dedicated to ongoing learning to stay ahead of industry trends. My goal is to create innovative, user-friendly applications that make a positive impact. Expect expertise in full stack and mobile app development, a passion for emerging technologies, and a commitment to continuous growth. Let's connect and build a bright future together in tech! 🚀
-</p>
-
+              As a computer programming student at Conestoga College, I'm
+              passionate about forging a rewarding career in IT, focusing on
+              roles like Full Stack Developer and Mobile Developer. Proficient
+              in the MERN stack and skilled in C# and JavaScript, I'm dedicated
+              to ongoing learning to stay ahead of industry trends. My goal is
+              to create innovative, user-friendly applications that make a
+              positive impact. Expect expertise in full stack and mobile app
+              development, a passion for emerging technologies, and a commitment
+              to continuous growth. Let's connect and build a bright future
+              together in tech! 🚀
+            </p>
           </div>
         </div>
         <section class="py-10">
