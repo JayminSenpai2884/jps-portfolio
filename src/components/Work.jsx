@@ -1,10 +1,9 @@
 import React from "react";
 import workImg from "../assets/imageWork1.png";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-
-
+import { TbDeviceDesktopCode } from "react-icons/tb";
 const Work = () => {
-
+  const livePreviewURL = "https://github.com/JayminSenpai2884"; 
   return (
     <div name="work" className="w-full md:h-screen text-black bg-[#e4e3de]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -22,7 +21,7 @@ const Work = () => {
               className="object-cover w-100 h-100"
             />
             <div className="mt-4">
-              <h1 className="font-extrabold text-2xl">FilmyBox</h1>
+              <h1 className="font-extrabold text-2xl pb-3 ">FilmyBox</h1>
               <p className="font-normal text-sm">
                 FilmyBox, the dynamic OTT platform, was brought to life using
                 the MERN (MongoDB, Express.js, React.js, Node.js) stack. Node.js
@@ -34,6 +33,13 @@ const Work = () => {
                 also positions FilmyBox to adapt and grow in the ever-evolving
                 world of online streaming.
               </p>
+              <button 
+              className="inline-flex items-center bg-[#e4e3de] text-black font-bold pt-3 border-black rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+              onClick={() => window.open(livePreviewURL, '_blank')}
+            >
+              <TbDeviceDesktopCode className="mr-2" size={30} />
+              Live Preview
+            </button>
             </div>
           </div>
         </div>
@@ -41,10 +47,7 @@ const Work = () => {
 
       <div class="bg-[#e4e3de] shadow-md">
         <div class="max-w-2xl mx-auto text-black py-10 flex flex-col items-center justify-center ">
-          <div class="text-center ">
-            
-          </div>
-          
+          <div class="text-center "></div>
 
           <div class="flex flex-col md:flex-row items-center text-sm text-black">
             <div class="order-2 md:order-1 flex space-x-4 mb-4 md:mb-0">
@@ -66,7 +69,6 @@ const Work = () => {
                 <FaInstagram
                   size={30}
                   className="text-black hover:text-zinc-600"
-                  
                 />
               </a>
               <a
@@ -77,7 +79,6 @@ const Work = () => {
                 <FaGithub
                   size={30}
                   className="text-black hover:text-zinc-600"
-                  
                 />
               </a>
             </div>
